@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Media Element</title>
+	<style>
+				@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+		
+		body {
+/* 			background-color: #d442a4; */
+			font-family: 'Poppins', sans-serif;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		
+		.video-card{
+			width:350px;
+			height: auto;
+			border: 1px solid #ccc;
+			
+		}
+
+		.video-card video{
+			width: 100%;
+		}
+		.video-card .body{
+			padding: 10px;
+		}
+		.video-card .body h1{
+			font-size:15px;
+			
+		}
+
+		.video-card .body button{
+			padding: 12px 20px;
+			background: linear-gradient(to right, #0678ea, #16a6fc ) ;
+			color: #fff ;
+			border-radius:5px;
+			border: 0px;
+			outline: none;
+			font-family: 'Poppins', sans-serif;
+		}
+	</style>
+</head>
+<body>
+
+
+
+<!-- 	Video Element -->
+<!-- 	
+		src
+		autoplay
+		controls
+	-->
+<!-- 	<video width="500" height="500" muted autoplay>
+		<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"></source>
+		<h1>Your browser does not support this video.</h1>
+	</video> -->
+
+<!-- 	<audio autoplay controls>
+		<source src="https://prodstage-services-audiohashnodeaudioblog02f14287-1k4ui7vrgv13u.s3-us-west-2.amazonaws.com/cl4y2fwwu054b5env83yedsn2-male" type="audio/mp3" ></source>
+	</audio> -->
+
+
+<!-- 	Adding Youtube Videos -->
+<!-- <iframe width="200" height="200" src="https://www.youtube.com/embed/59Ny80lc7Pk?autoplay=1"></iframe> -->
+
+	<div class="video-card">
+			<video autoplay controls>
+		<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"></source>
+		<h1>Your browser does not support this video.</h1>
+	</video>
+		<div class="body">
+			<h1>Lorem ipsum dolor sit amet consectetur.</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			<br>
+			<button>Go somewhere</button>
+		</div>
+	</div>
+	
+</body>
+</html>

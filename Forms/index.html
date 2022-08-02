@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <style>
+/*     .input {
+      width: 200px;
+      height: 20px;
+      padding: 15px;
+    } */
+
+    .box p {
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .box input {
+      width: 450px;
+      padding: 10px 15px 10px 15px;
+      border-radius: 10px;
+    }
+    .colcla{
+      width:100px;
+      height:50px;
+    }
+    #borfile{
+      border: 2px solid black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 
+	The HTML forms tag are basically inputs which is used in collecting users feedbaclks / inputs	
+-->
+
+  <!-- 	Inputs -->
+
+  <!-- 	Text Input -->
+  <!-- 	<input type="text" placeholder="Full Name" class="input name" required /> -->
+
+  <!-- 	Email Inputs -->
+  <!-- 	<input type="email" placeholder="Email" class="input email" required /> -->
+
+  <!-- 	Password -->
+  <!-- 	<input type="password" placeholder="Password" class="input password" required /> -->
+
+  <!-- 	Color -->
+  <!-- 	<input type="color" class="input color" /> -->
+
+  <!-- 	Hidden -->
+  <!-- 	<input type="hidden" class="" /> -->
+
+  <!-- 	Image -->
+  <!-- 	<input type="image" class="input image" /> -->
+
+  <!-- File -->
+  <!-- 	<input type="file" class="input file" /> -->
+
+  <!-- 	<input type="submit" value="Submit Data" class="input submit" /> -->
+
+
+  <!-- 	<input type="range" class="input range" /> -->
+
+  <div class="form">
+    <div class="box">
+      <p>Tags</p>
+      <input type="text" placeholder="Add Tagsx separated by comma.">
+    </div>
+    <div class="box">
+      <p>Email</p>
+      <input type="email" placeholder="Enter email.">
+      <p>Enter password</p>
+      <input type="password" placeholder="Enter your password" />
+      <p> Enter color </p>
+      <input type="color" class="colcla" />
+      <p>Upload File</p>
+      <input type="file" id="borfile">
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
