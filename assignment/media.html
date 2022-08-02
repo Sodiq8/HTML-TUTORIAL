@@ -9,14 +9,16 @@
     <title>Document</title>
     <style>
         body{
+						width:100vw;
+						height:100vh;
             background-color: #62d6af;
             display:flex; 
             align-items:center;
             justify-content: center;
         }
         .cont{
-            width:320px;
-            height:370px;
+            width:420px;
+            height:auto;
             background-color: white;
             padding: 12px;
             border-radius:10px;
@@ -25,18 +27,21 @@
         .vidcon{
             border:2px solid #62d6af;
             border-radius:15px;
-            width:auto;
+            width:420px;
             height:auto;
         }
         button{
             background: linear-gradient(to right, #557ce3, #62d6af);
-            width:320px;
+            width:100%;
             height:50px;
             text-align:center;
             color:white;
             border: 1px solid #62d6af;
             border-radius: 15px;
         }
+				button:hover{
+					cursor: progress;
+				}
     </style>
 </head>
 <body>
